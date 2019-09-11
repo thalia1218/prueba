@@ -1,0 +1,50 @@
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+    <!-- Brand -->
+    <a class="navbar-brand" routerLink="/login" href="#"><img height="40px" src="../../assets/img/logodesigner.png">  |  Inicio  |  </a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/kioDatoPersonal" href="#">  |  Mis Datos Personales  |  </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/login" href="#">  |  Salir  |  </a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Reportes
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Certificado Laboral</a>
+              <a class="dropdown-item" href="#">Certificado de ingresos y retenciones</a>
+              <a class="dropdown-item" href="#">Desprendible de nómina</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Vacaciones
+                <button type="button" class="btn btn-primary" style="padding: 1px 1px 1px 1px">
+                    <span class="badge badge-light">4</span>
+                  </button>
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Crear Solicitud</a>
+                <a class="dropdown-item" href="#">Mi histórico de solicitudes</a>
+                <a class="dropdown-item" href="#">Vacaciones por procesar
+                  <button type="button" class="btn btn-primary" style="padding: 1px 1px 1px 1px">
+                    <span class="badge badge-light">4</span>
+                  </button></a>
+                <a class="dropdown-item" href="#">Vacaciones procesadas</a>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </nav>
+
